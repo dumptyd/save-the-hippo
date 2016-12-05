@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Save The Hippo</title>
+		
+		
+		<link rel='stylesheet' type='text/css' href='css.css'>
+		<script src="jquery.js"></script>
+		<script src='js.js'></script>
+		
+	</head>
+	
+	<body>
+		
+		<div id='game-container'>
+			<div id='splash-screen'>
+				<div id='options'>
+					<div id='hippo-image-container'>
+						<div id='lEye-container'><img src='eye.png' id='lEye'></div>
+						<div id='rEye-container'><img src='eye.png' id='rEye'></div>
+						<img src='hippo-big.png' id='hippo-image'>
+						<img src='lnostril.png' id='lNostril'>
+						<img src='rnostril.png' id='rNostril'>
+					</div>
+					<div id='title'>Save The Hippo</div>
+					<div id='play'>Play</div>
+					<div id='howto-button'>How to play</div>
+					<div id='credits-button'>Credits</div>
+					<div id='feedback-button'>Feedback</div>
+				</div>
+				
+				<div id='howto'>
+					<div id='howto-title'>How to play</div>
+					<div id='howto-text'>
+						Move around with your mouse to dodge the obstacles.
+					</div>
+					<div id='howto-back'>Back</div>
+				</div>
+				
+				<div id='credits'>
+					<div id='credits-title'>Credits</div>
+					<div id='credits-text'>
+						Developed by: 
+						<div class='link'>
+							<a target='_blank' href='https://www.github.com/dumptyd'>DumptyD</a>
+						</div>
+						<br>
+						Image(s) by: 
+						<div class='link'> 
+						<a target='_blank' href='https://www.pixabay.com/en/users/ClkerFreeVectorImages-3736/'>ClkerFreeVectorImages</a>
+						</div>
+						<div class='link'> 
+						<a targer='_blank' href='https://pixabay.com/en/users/exean-621547/'>exean</a>
+						</div>
+					</div>
+					<div id='credits-back'>Back</div>
+				</div>
+				
+				<div id='feedback'>
+					<div id='feedback-title'>Feedback</div>
+					<div id='feedback-text'>
+						Name:<br>
+						<input type='text'  id='user-name' placeholder='Anonymous' autocomplete='off'><br><br>
+						Your feedback <br>or suggestions:<br>
+						<textarea id='user-feedback' autocomplete='off'></textarea>
+						<div id='feedback-submit'>Submit</div>
+						<div id='feedback-back'>Back</div>
+					</div>
+					
+					<div id='feedback-success'>Thank you.</div>
+					
+				</div>
+				
+			</div>
+			<div id='score'>0</div>
+			<div id='mau'></div>
+			<div id='gameOver-overlay'>
+				<div id='final-score'></div>
+				<div id='replay'>Replay</div>
+				<div id='over-back'>Main menu</div>
+			</div>
+		
+		</div>
+		
+		
+	</body>
+</html>
